@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('usuarios', function (Blueprint $table) {
             $table->id();
-            $table->timestamps(); //estas dos vienen x defecto al momento de crearlas 
-            $rut
+            $table->timestamps(); //estas dos vienen x defecto al momento de crearlas
+            $table->number();
         });
     }
 
