@@ -20,3 +20,4 @@ Route::get('/', function () {
 Route::get('/sesion', function (){
 return view('menu');
 });
+
