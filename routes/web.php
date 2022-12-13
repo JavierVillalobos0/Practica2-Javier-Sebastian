@@ -21,3 +21,4 @@ Route::get('/sesion', function (){
 return view('menu');
 });
 
+Route::get('dash', 'App\Http\Controllers\DashboardController@index');
